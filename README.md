@@ -37,13 +37,7 @@ If you want to host this project locally or deploy it to your own web server, yo
    git clone https://github.com/Ankit64s/productsAndCarts.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd buy-quality-products
-   ```
-
-3. Open the `index.html` file in your web browser.
+2. Open the `index.html` file in your web browser.
 
 ## Contributing
 
