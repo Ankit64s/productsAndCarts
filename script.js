@@ -1,7 +1,7 @@
 const Products = [
   { id: 1, name: "HankerChief", price: 100 },
   { id: 2, name: "Leather-Belt", price: 300 },
-  { id: 3, name: "Formal-Shoes", price: 500 },
+  { id: 3, name: "Formal-Shoes", price: 500 }
 ];
 
 function createProductElement(product) {
@@ -58,8 +58,8 @@ function updateCart() {
           <h5 class="productCartName">${product.name}</h5>
           <div class="content">
             <h5 class="quantCartProduct">${quantity}</h5>
-            <h5>*</h5>
-            <h5 class="productCartPrice">${product.price}</h5>
+            <h5>&nbsp;x&nbsp;</h5>
+            <h5 class="productCartPrice"> ${product.price}</h5>
           </div>
         `;
 
